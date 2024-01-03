@@ -7,7 +7,11 @@
 
 
 
-https://github.com/cgtuebingen/SIGNeRF/assets/9963865/edca0821-11da-482a-8695-138a2c022bbc
+
+
+https://github.com/cgtuebingen/SIGNeRF/assets/9963865/e52d1abd-d58e-431e-b220-4489acece6d2
+
+
 
 
 
@@ -28,9 +32,7 @@ Paper is currently under review, we will realse the code shortly in a cleaned ve
 
 # Citation
 
-You can find our paper on [arXiv](https://arxiv.org/).
-
-If you find the paper useful for your research, please consider citing:
+You can find our paper on [arXiv](https://arxiv.org/), please consider citing, if you find this work useful:
 
 ```
 @inproceeding{signerf,
