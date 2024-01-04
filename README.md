@@ -18,7 +18,7 @@ https://github.com/cgtuebingen/SIGNeRF/assets/9963865/e52d1abd-d58e-431e-b220-44
 
 <p align="center">
     <span> 🌐  <a href="https://signerf.jdihlmann.com/"> Project Page </a> </span>&nbsp;&nbsp;&nbsp;
-    <span> 📄  <a href="https://arxiv.org/"> Paper (Arxiv) </a> </span>&nbsp;&nbsp;&nbsp;
+    <span> 📄  <a href="http://arxiv.org/abs/2401.01647"> Paper (Arxiv) </a> </span>&nbsp;&nbsp;&nbsp;
     <span> 📺  <a href="https://www.youtube.com/playlist?list=PL5y23CB9WmildtW3QyMEi3arXg06zB4ex"> Videos </a> </span>&nbsp;&nbsp;&nbsp;
 </p>
 
@@ -38,7 +38,7 @@ You can find our paper on [arXiv](https://arxiv.org/), please consider citing, i
 @inproceeding{signerf,
   author ={Dihlmann, Jan-Niklas and Engelhardt, Andreas and Lensch, Hendrik P.A.},
   title ={SIGNeRF: Scene Integrated Generation for Neural Radiance Fields},
-  booktitle ={Preprint (ToDo)},
+  booktitle ={arXiv preprint arXiv:2401.01647},
   year ={2023}
 }
 ```
