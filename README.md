@@ -27,7 +27,7 @@ We propose SIGNeRF, a novel approach for fast and controllable NeRF scene editin
 
 
 # Code
-Paper is currently under review, we will realse the code shortly in a cleaned version for [Nerfstudio](https://docs.nerf.studio/). Up until then if you have any questions regarding the project or need material to compare against fast, feel free to contact us. 
+Paper is currently under review, we will realse the code shortly (~ end of february) in a cleaned version for [Nerfstudio](https://docs.nerf.studio/). Up until then if you have any questions regarding the project or need material to compare against fast, feel free to contact us. 
 
 
 # Citation
