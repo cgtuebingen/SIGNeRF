@@ -1,0 +1,50 @@
+[project]
+name = "signerf"
+version = "0.1.0"
+
+dependencies=[
+    "nerfstudio==1.0.2",
+    "clip @ git+https://github.com/openai/CLIP.git",
+    "transformers>=4.26.1",
+    "accelerate",
+    "einops",
+    "torch==2.1.2+cu118",
+    "torchvision==0.16.2+cu118",
+    "ninja",
+    "pyrender"
+]
+
+# black
+[tool.black]
+line-length = 120
+
+# pylint
+[tool.pylint.messages_control]
+max-line-length = 120
+generated-members = ["numpy.*", "torch.*", "cv2.*", "cv.*"]
+good-names-rgxs = "^[_a-zA-Z][_a-z0-9]?$"
+ignore-paths = ["scripts/colmap2nerf.py"]
+jobs = 0
+ignored-classes = ["TensorDataclass"]
+
+disable = [
+  "duplicate-code",
+  "fixme",
+  "logging-fstring-interpolation",
+  "too-many-arguments",
+  "too-many-branches",
+  "too-many-instance-attributes",
+  "too-many-locals",
+  "unnecessary-ellipsis",
+]
+
+[tool.setuptools.packages.find]
+include = ["signerf*"]
+
+[project.entry-points.'nerfstudio.method_configs']
+signerf = 'signerf.signerf_config:signerf_method'
+signerf_nerfactor = 'signerf.signerf_nerfacto_config:signerf_nerfacto_method'
+
+
+[tool.poetry.package.data]
+signerf = ["data/*.py", "data/*.txt", "utils/*.py", "utils/*.txt", "diffuser/*.py", "diffuser/*.txt", "render/*.py", "render/*.txt",  "datasetGenerator/*.txt",   "datasetGenerator/*.py", "interface/*.py", "interface/*.txt"]
