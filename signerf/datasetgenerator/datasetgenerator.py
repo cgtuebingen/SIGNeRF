@@ -35,7 +35,7 @@ class DatasetGeneratorConfig(cfg.InstantiateConfig):
 
     _target: Type = field(default_factory=lambda: DatasetGenerator)
     """target class to instantiate"""
-    path: Path = field(default_factory=lambda: Path("./generation"))
+    path: Path = field(default_factory=lambda: Path("./generations"))
     """ Path to the generadet dataset parent directory"""
     dataset_name: str = field(default_factory=lambda: "experiment-" + datetime.datetime.now().strftime("%Y%m%d-%H%M%S"))
     """ Name of the generated dataset"""
