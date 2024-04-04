@@ -153,8 +153,7 @@ class SIGNeRFDataParser(DataParser):
                 )
 
                 # Create white mask if frame is not in original_indices
-                if idx not in original_indices:
-
+                if original_indices is not None and idx not in original_indices:
                     mask_path = mask_fname.parents[0] / "white.png"
 
                     # Check if white mask exists
