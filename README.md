@@ -19,7 +19,7 @@ https://github.com/cgtuebingen/SIGNeRF/assets/9963865/e52d1abd-d58e-431e-b220-44
 
 # About
 
-SIGNeRF got accepted to [CVPR 2024](https://cvpr.thecvf.com/) - Visit us at our [Poster Session](https://cvpr.thecvf.com/Conferences/2024)!
+SIGNeRF got accepted to [CVPR 2024](https://cvpr.thecvf.com/) - Visit us at our [Poster Session](https://cvpr.thecvf.com/virtual/2024/poster/31835) Thu 20 Jun 2 a.m. CEST — 3:30 a.m. CEST!
 
 SIGNeRF allows for generative 3D scene editing. We present a novel approach to combine [NeRFs](https://www.matthewtancik.com/nerf) as scene representation with the image diffusion model [StableDiffusion](https://github.com/Stability-AI/stablediffusion) to allow fast and controlled 3D generation.
 
@@ -364,7 +364,7 @@ ns-render camera-path --load-config outputs/{...}/config.yml --camera-path-filen
 
 # Contact
 
-For questions and issues regarding the code please open an issue on this repository. We
+For questions and issues regarding the code please open an issue on this repository.
 For any further concerns please <a href="mailto:jan-niklas.dihlmann@uni-tuebingen.de">contact us</a>, if you need any models or material to compare against for your research, feel free to reach out.
 
 # Citation
