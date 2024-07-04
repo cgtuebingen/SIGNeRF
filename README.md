@@ -19,7 +19,7 @@ https://github.com/cgtuebingen/SIGNeRF/assets/9963865/e52d1abd-d58e-431e-b220-44
 
 # About
 
-SIGNeRF got accepted to [CVPR 2024](https://cvpr.thecvf.com/) - Visit us at our [Poster Session](https://cvpr.thecvf.com/virtual/2024/poster/31835) Thu 20 Jun 2 a.m. CEST — 3:30 a.m. CEST!
+SIGNeRF got accepted to [CVPR 2024](https://cvpr.thecvf.com/) - [Poster Information](https://cvpr.thecvf.com/virtual/2024/poster/31835)
 
 SIGNeRF allows for generative 3D scene editing. We present a novel approach to combine [NeRFs](https://www.matthewtancik.com/nerf) as scene representation with the image diffusion model [StableDiffusion](https://github.com/Stability-AI/stablediffusion) to allow fast and controlled 3D generation.
 
@@ -375,8 +375,10 @@ You can find our paper on [arXiv](https://arxiv.org/abs/2401.01647), please cite
 @inproceeding{signerf,
   author ={Dihlmann, Jan-Niklas and Engelhardt, Andreas and Lensch, Hendrik P.A.},
   title ={SIGNeRF: Scene Integrated Generation for Neural Radiance Fields},
-  booktitle ={arXiv preprint arXiv:2401.01647},
+  booktitle ={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  month ={June}
   year ={2024}
+  pages ={6679-6688}
 }
 ```
 
