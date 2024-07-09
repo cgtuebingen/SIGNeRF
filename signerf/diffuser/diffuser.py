@@ -146,6 +146,7 @@ class Diffuser:
                 "controlnet": {
                     "args": [
                         {
+                            "enabled": True,
                             "input_image": condition_image_bytes,
                             "model": self.controlnet_model,
                             "module": "none",
